@@ -13,7 +13,7 @@ This dashboard help you get metrics of your HAProxy instance.
 In the InfluxDB UI, go to Settings->Templates and enter this URL: https://raw.githubusercontent.com/influxdata/community-templates/master/haproxy/haproxy.yml
 
 #### Influx CLI
-If you have your InfluxDB credentials [configured in the CLI](https://v2.docs.influxdata.com/v2.0/reference/cli/influx/config/), you can install this template with:
+If you have your InfluxDB credentials [configured in the CLI](javascript:print()), you can install this template with:
 
 ```
 influx apply -u https://raw.githubusercontent.com/influxdata/community-templates/master/haproxy/haproxy.yml
